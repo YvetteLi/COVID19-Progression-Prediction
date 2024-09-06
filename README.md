@@ -1,6 +1,0 @@
-# COVID19-Progression-Prediction
-
-
-Coronavirus disease 2019 (COVID-19) is a respiratory illness that can spread from person to
-person. The novel coronavirus was first identified during an investigation into an outbreak in
-Wuhan, China (CDC, 2020). Up to March 12, there were 125,260 confirmed cases worldwide and 80,981 confirmed cases in China (WHO, 2020). Given the severity of this epidemic, it is crucial to estimate the theoretical number of people infected with COVID-19 over time. At first glance, we apply the deterministic SIR model to predict the progression of this virus.  Although this compartmental model provides a basis to predict the progression of such an epidemic, it excludes the exposed individuals and fails to distinguish the recovered and fatal individuals. Moreover, it assumes that the parameters are fixed. To cope with these issues, we then introduce the modified SEIRD model, which includes more compartments and makes two of its parameters adjustable. We then include stochastic SIR and SEIR models to reveal the discrete transitions among states. The model implemented is an agent based decision analysis Markov chain Monte Carlo framework to generate subject-level infectious history, which is more robust to the missing infectious count data.
